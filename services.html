@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services-TM Digital Tech</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/services.css">
+    <link rel="icon" type="image/x-icon" href="./src/img/TM Logo.png">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="http://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm">
+  <div class="container">
+    <!-- Logo -->
+    <a class="navbar-brand" href="index.html">
+      <img src="./src/img/TM Logo.png" alt="Logo">
+    </a>
+
+    <!-- Toggler (for mobile) -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Nav links -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto align-items-center">
+        <li class="nav-item"><a class="nav-link active text-pink" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+        <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+      </ul>
+    </div>
+  </div>
+</nav><br>
+
+
+
+
+    <!-- Hero Banner -->
+    <section class="hero-banner">
+        <div class="container" data-aos="fade-up" data-aos-duration="1000">
+            <h1>Our Services</h1>
+            <p>Comprehensive solutions to grow your business online</p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services">
+
+        <div class="container" data-aos="zoom-in" data-aos-duration="1000">
+
+            <h2 class="section-title">What We Offer</h2>
+            <p class="section-subtitle">Explore our range of digital marketing services</p>
+
+            <div class="services-grid">
+
+
+                <section class="services">
+                    <!--<h2 class="section-title">Our Services</h2>
+  <p class="section-subtitle">Explore what we offer</p>-->
+                    <!-- Digital Marketing -->
+                    <div class="services-grid">
+                        <div class="service-card">
+                            <div class="service-image">
+                                <img src="./src/img/Digital Marketing.jpg" alt="Digital Marketing">
+                            </div>
+                            <h3>Digital Marketing</h3>
+                            <p>Data-driven digital marketing campaigns that deliver measurable results and maximize ROI.
+                            </p>
+                            <input type="checkbox" id="expand1" class="expand-checkbox">
+                            <div class="service-details">
+                                <div class="service-details-content">
+                                    <h4>Our Digital Marketing Services Include:</h4>
+                                    <ul>
+                                        <li>Social Media Marketing</li>
+                                        <li>Pay-Per-Click Advertising</li>
+                                        <li>Email Marketing</li>
+                                        <li>Content Marketing</li>
+                                        <li>Analytics & Reporting</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <label for="expand1" class="expand-btn view-more-btn">
+                                <span class="view-more-text">View More</span>
+                                <span class="view-less-text">View Less</span>
+                            </label>
+                        </div>
+
+
+                        <!-- Web devp -->
+                        <div class="service-card">
+                            <div class="service-image">
+                                <img src="./src/img/web dev.jpg" alt="Web Development">
+                            </div>
+                            <h3>Web Development</h3>
+                            <p>Build modern, responsive, and scalable websites that deliver performance, security, and a seamless user experience.</p>
+
+                            <input type="checkbox" id="expand2" class="expand-checkbox">
+                            <div class="service-details">
+                                <div class="service-details-content">
+                                    <h4>Our Web Development Services Include:</h4>
+                                    <ul>
+                                        <li>Responsive Website Design</li>
+                                        <li>E-commerce Solutions</li>
+                                        <li>CMS Development (WordPress, Drupal)</li>
+                                        <li>Web Application Development</li>
+                                        <li>Website Maintenance & Support</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <label for="expand2" class="expand-btn view-more-btn">
+                                <span class="view-more-text">View More</span>
+                                <span class="view-less-text">View Less</span>
+                            </label>
+                        </div>
+
+                        <!-- SEO -->
+
+                        <div class="services-grid">
+                            <div class="service-card">
+                                <div class="service-image">
+                                    <img src="./src/img/seo.jpg" alt="SEO">
+                                </div>
+                                <h3>SEO</h3>
+                                <p>Comprehensive SEO strategies to improve your visibility and drive organic traffic to
+                                    your website.</p>
+
+                                <!-- Unique checkbox for toggle -->
+                                <input type="checkbox" id="expand3" class="expand-checkbox">
+                                <div class="service-details">
+                                    <div class="service-details-content">
+                                        <h4>Our SEO Services Include:</h4>
+                                        <ul>
+                                            <li>Keyword Research & Analysis</li>
+                                            <li>On-Page Optimization</li>
+                                            <li>Technical SEO Audits</li>
+                                            <li>Link Building Strategies</li>
+                                            <li>Local SEO</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <label for="expand3" class="expand-btn view-more-btn">
+                                    <span class="view-more-text">View More</span>
+                                    <span class="view-less-text">View Less</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <!--Graphic Design-->
+                        <div class="service-card">
+                            <div class="service-image">
+                                <img src="./src/img/graphic design.jpg" alt="Graphic Design">
+                            </div>
+                            <h3>Graphic Design</h3>
+                            <p>Visually stunning designs that communicate your brand message and captivate your
+                                audience.</p>
+
+                            <input type="checkbox" id="expand4" class="expand-checkbox">
+                            <div class="service-details">
+                                <div class="service-details-content">
+                                    <h4>Our Graphic Design Services Include:</h4>
+                                    <ul>
+                                        <li>Logo & Brand Identity</li>
+                                        <li>Marketing Collaterals</li>
+                                        <li>Social Media Graphics</li>
+                                        <li>Infographics</li>
+                                        <li>Presentation Design</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <label for="expand4" class="expand-btn view-more-btn">
+                                <span class="view-more-text">View More</span>
+                                <span class="view-less-text">View Less</span>
+                            </label>
+                        </div>
+
+
+                        <!-- UI UX -->
+                        <div class="service-card">
+                            <div class="service-image">
+                                <img src="./src/img/ui ux.jpg" alt="UI UX">
+                            </div>
+                            <h3>UI UX</h3>
+                            <p>User-centered designs that enhance usability and create meaningful experiences for your
+                                audience.</p>
+
+                            <input type="checkbox" id="expand5" class="expand-checkbox">
+                            <div class="service-details">
+                                <div class="service-details-content">
+                                    <h4>Our UI UX Services Include:</h4>
+                                    <ul>
+                                        <li>User Research & Analysis</li>
+                                        <li>Wireframing & Prototyping</li>
+                                        <li>Interaction Design</li>
+                                        <li>Usability Testing</li>
+                                        <li>Design Systems</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <label for="expand5" class="expand-btn view-more-btn">
+                                <span class="view-more-text">View More</span>
+                                <span class="view-less-text">View Less</span>
+                            </label>
+                        </div>
+
+
+
+                        <!-- Content Writing -->
+
+                        <div class="service-card">
+                            <div class="service-image">
+                                <img src="./src/img/content.jpg" alt="Content Writing">
+                            </div>
+                            <h3>Content Writing</h3>
+                            <p>Engaging and SEO-friendly content that resonates with your audience and drives
+                                conversions.</p>
+
+                            <input type="checkbox" id="expand6" class="expand-checkbox">
+                            <div class="service-details">
+                                <div class="service-details-content">
+                                    <h4>Our Content Writing Services Include:</h4>
+                                    <ul>
+                                        <li>Blog Posts & Articles</li>
+                                        <li>Website Copywriting</li>
+                                        <li>Social Media Content</li>
+                                        <li>Email Marketing Campaigns</li>
+                                        <li>Technical Writing</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <label for="expand6" class="expand-btn view-more-btn">
+                                <span class="view-more-text">View More</span>
+                                <span class="view-less-text">View Less</span>
+                            </label>
+                        </div>
+
+                    </div>
+            </div>
+    </section>
+
+    <!-- Banner Section -->
+    <section class="banner">
+        <div class="container">
+            <h2>Ready to Transform Your Digital Presence?</h2>
+            <p>Get in touch with us today for a free consultation</p>
+            <a href="contact.html" class="cta-button">Contact Us</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="yellow-footer">
+        <div class="footer-container">
+            <!-- Left Section -->
+            <div class="footer-left">
+                <h3>TM Digital Tech</h3>
+                <p>📞 +91 98765 43210</p>
+                <p>📧 TM Digital@gmail.com</p>
+                <p>📍 2nd Floor, ABC Complex, Anna Nagar,<br>
+                    Madurai – 625001, Tamil Nadu, India</p>
+                <p class="travel-message">
+                    Congratulations for traveling from start to the end of this page! <br>
+                    We appreciate your interest in TM Digital Tech. Let's connect and explore how we can help your
+                    business thrive in the digital world! 😊
+                </p>
+            </div>
+
+            <!-- Right Section -->
+            <div class="footer-right">
+                <div class="footer-links">
+                    <div>
+                        <a href="index.html">Home</a>
+                        <a href="about.html">About us</a>
+                        <a href="services.html">Services</a>
+                        <a href="contact.html">Contact us</a>
+                    </div>
+                    <div>
+                        <a href="#">Awards</a>
+                        <a href="#">Careers</a>
+                        <a href="#">Privacy Policy</a>
+                    </div>
+                </div>
+
+                <!-- Social Icons -->
+                <div class="social-icons">
+                    <!-- Instagram -->
+                    <a href="https://instagram.com" target="_blank" aria-label="Instagram">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24"
+                            fill="url(#instaGradient)">
+                            <defs>
+                                <linearGradient id="instaGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" stop-color="#feda75" />
+                                    <stop offset="25%" stop-color="#fa7e1e" />
+                                    <stop offset="50%" stop-color="#d62976" />
+                                    <stop offset="75%" stop-color="#962fbf" />
+                                    <stop offset="100%" stop-color="#4f5bd5" />
+                                </linearGradient>
+                            </defs>
+                            <path d="M7 2C4.243 2 2 4.243 2 7v10c0 2.757 
+                                2.243 5 5 5h10c2.757 0 5-2.243 
+                                5-5V7c0-2.757-2.243-5-5-5H7zm0 
+                                2h10c1.654 0 3 1.346 3 
+                                3v10c0 1.654-1.346 3-3 
+                                3H7c-1.654 0-3-1.346-3-3V7c0-1.654 
+                                1.346-3 3-3zm5 3a5 5 0 100 10 5 5 0 
+                                000-10zm0 2a3 3 0 110 6 3 3 0 010-6zm4.5-.5a1.5 
+                                1.5 0 11-3 0 1.5 1.5 0 013 0z" />
+                        </svg>
+                    </a>
+
+                    <!-- Twitter (X) -->
+                    <a href="https://twitter.com" target="_blank" aria-label="Twitter">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="#000000"
+                            viewBox="0 0 24 24">
+                            <path
+                                d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24h-6.672l-5.242-6.837-6.001 6.837H1.604l7.735-8.8L1.14 2.25h6.787l4.713 6.244 5.604-6.244z" />
+                        </svg>
+                    </a>
+
+                    <!-- Facebook -->
+                    <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="#1877F2"
+                            viewBox="0 0 24 24">
+                            <path d="M22.675 0h-21.35C.597 0 
+                            0 .597 0 1.326v21.348C0 23.403.597 
+                            24 1.326 24H12.82v-9.294H9.692V11.41h3.128V8.797c0-3.1 
+                            1.894-4.788 4.659-4.788 1.325 0 2.463.099 
+                            2.794.143v3.24l-1.918.001c-1.504 
+                            0-1.796.715-1.796 1.763v2.313h3.587l-.467 
+                            3.296h-3.12V24h6.116C23.403 24 24 
+                            23.403 24 22.674V1.326C24 .597 23.403 
+                            0 22.675 0z" />
+                        </svg>
+                    </a>
+
+                    <!-- LinkedIn -->
+                    <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="#0A66C2"
+                            viewBox="0 0 24 24">
+                            <path d="M22.225 0H1.771C.792 0 0 
+                            .774 0 1.729v20.542C0 23.226.792 
+                            24 1.771 24h20.451C23.2 24 24 
+                            23.226 24 22.271V1.729C24 .774 
+                            23.2 0 22.225 0zM7.059 20.452H3.556V9h3.503v11.452zM5.308 
+                            7.672c-1.121 0-2.029-.916-2.029-2.045 
+                            0-1.13.908-2.046 2.029-2.046 1.121 0 
+                            2.029.916 2.029 2.046 0 1.129-.908 
+                            2.045-2.029 2.045zM20.452 
+                            20.452h-3.502v-5.605c0-1.337-.027-3.061-1.865-3.061-1.865 
+                            0-2.151 1.458-2.151 2.963v5.703h-3.503V9h3.364v1.561h.048c.469-.889 
+                            1.616-1.828 3.327-1.828 3.556 0 
+                            4.211 2.339 4.211 5.377v6.342z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <p class="footer-description">
+            TM Digital is a leading social media and digital marketing agency based in Madurai, dedicated to helping
+            businesses grow their online presence and achieve measurable results.
+            With a passionate team of creative experts, we specialize in branding, web development, SEO, social media
+            marketing, and digital advertising.
+            Our innovative strategies and result-driven approach have helped numerous clients build strong digital
+            identities and increase their market reach.
+            Whether you’re a startup or an established brand, TM Digital offers customized solutions to connect you with
+            your target audience and drive long-term success.
+        </p>
+    </footer>
+
+
+
+    <!-- Bottom Footer -->
+    <footer>
+        <p class="copy">Copyrights © 2025 TM Digital Tech. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <!--AOS Animation-->
+    <script>
+        AOS.init({
+
+        });
+    </script>
+
+</body>
+
+</html>
+
+
